@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.headertodo {
+    display: flex;
+}
+
+.logo {
+    width: 15%;
+    padding: 2%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 25%;
+    
+}
+
+.icones {
+    width: 18%;
+    padding-top: 20%;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #302D40;
+}
+
+ul li a:hover {
+    color: #2BD9A8;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #EBF7ED;
+}
+
+.caixa {
+    background-color: #EBF7ED;
+    display: flex;
+}
+
+.textos1 {
+    margin-left: 25%;
+    padding-top: 24%;
+    margin-bottom: 10%;
+    font-size: 44px;
+}
+
+.btn-dark {
+    background-color: #302D40;
+    margin-top: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-shadow: 1px 3px 10px rgb(75, 75, 75);
+}
+
+.btn-dark:hover {
+    background-color: #2BD9A8;
+    border-color: #2BD9A8;
+}
+
+.destaque1 {
+    width: 80%;
+    padding-top: 5%;
+}
+
+.destaque2{
+    width: 110%;
+}
+
+.textos2 {
+    padding-top: 20%;
+    padding-left: 5%;
+    width: 55%;
+}
+
+.destaque3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 27%;
+    margin-top: 5%;
+    background-color: #EBF7ED;
+    width: 50%;
+    padding: 5%;
+    border-radius: 12px;
+    border-color: #302D40;
+    border-width: 10px;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2BD9A8;
+    padding-top: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+
+/* !!! CSS DO CADASTRO !!! */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.css-cadastro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2BD9A8;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#d7dfd8;
+    padding: 1rem;
+}
+
+.form-img img {
+    width: 31rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.input-box input {
+    border: none;
+    border-radius: 1;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.continue-button button {
+    width: 100%;
+    background-color: #302D40;
+    margin-top: 3%;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 1px 3px 3px rgb(75, 75, 75);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #2BD9A8;
+}
+
+/* CSS DA ABA DE PRODUTOS!!!!!!! */
+
+.cards {
+    padding-left: 8%;
+    padding-top: 4%;
+    display: flex;
+}
