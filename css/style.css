@@ -22,11 +22,17 @@ body{
     
 }
 
+.class {
+    display: flex;
+}
+
 .icones {
-    width: 18%;
-    padding-top: 20%;
-    margin-left: 5%;
-    padding-left: 3%;
+   width: 55%;
+   padding-top: 110%;
+}
+
+.icones:hover {
+    transform: scale(1.1);
 }
 
 ul li {
@@ -38,9 +44,16 @@ ul li a {
     color: #302D40;
 }
 
+ul li a::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #2BD9A8;
+    display: block;
+}
+
 ul li a:hover {
     color: #2BD9A8;
-    
 }
 
 a{
@@ -63,6 +76,7 @@ a{
 .btn-dark {
     background-color: #302D40;
     margin-top: 3%;
+    margin-right: 5% ;
     padding-left: 8%;
     padding-right: 8%;
     box-shadow: 1px 3px 10px rgb(75, 75, 75);
@@ -79,13 +93,15 @@ a{
 }
 
 .destaque2{
-    width: 110%;
+    width: 120%;
 }
 
 .textos2 {
-    padding-top: 20%;
-    padding-left: 5%;
-    width: 55%;
+    padding-top: 25%;
+    padding-left: 10%;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
 }
 
 .destaque3 {
@@ -101,6 +117,7 @@ a{
     border-radius: 12px;
     border-color: #302D40;
     border-width: 10px;
+    border: 2px solid #302D40;
     font-size: 20px;
 }
 
@@ -198,10 +215,173 @@ footer{
     background-color: #2BD9A8;
 }
 
+/* CSS DA ABA DE MERCADOS !!!!!!!!!!!!!!! */
+
+.titulo-mercados{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.mapa-box{
+    position: relative;
+    margin-left: 10%;
+}
+
+.mapa-box iframe {
+    height: 91vh;
+}
+
+.formulario {
+    width: 65%;
+    margin-left: 30%;
+    background-color: #EBF7ED;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form-text{
+    margin-left: 6%;
+}
+
+.form-select{
+    margin-left: 6%;
+    width: 78%;
+}
+
+.form-check-input1 {
+    margin-left: 3%;
+}
+
+.form-label{
+    width: 50%;
+}
+
+.botao-mercados {
+    margin-left: 6%;
+}
+
 /* CSS DA ABA DE PRODUTOS!!!!!!! */
+
+.navbar-search{
+    margin-top: 15px;
+}
+
+.form-control{
+    width: 78%;
+    margin-left: 6%;
+}
+
+.btn-outline-success {
+    color: #2BD9A8;
+    border-color: #2BD9A8;
+}
+
+.btn-outline-success:hover {
+    background-color: #2BD9A8;
+    border-color: #2BD9A8;
+}
 
 .cards {
     padding-left: 8%;
     padding-top: 4%;
     display: flex;
+}
+
+.card {
+    box-shadow: 1px 1px 3px rgb(75, 75, 75);
+    margin-bottom: 10%;
+}
+
+.card-img-top{
+    object-position: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.btn-primary {
+    background-color: #2BD9A8;
+    border-color: #2BD9A8;
+}
+
+.btn-primary:hover {
+    background-color: #302D40;
+    border-color: #302D40;
+}
+
+/* CSS ABA DA LISTA  */
+
+.lista {
+    text-align: center;
+    padding-top: 7%;
+}
+
+table {
+    width: 80%;
+    height: 5vh;
+    background-color: #EBF7ED;
+    margin-top: 4%;
+    margin-left: 10%;
+    text-align: center;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+.container-lista {
+    text-align: center;
+    padding-top: 8%;
+    background-color: #EBF7ED;
+    width: 70%;
+    height: 50vh;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 12px;
+}
+
+.texto-lista {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.botao-lista {
+    margin-left: 40px;
+}
+
+/* CSS DA ÁREA DE CONTATO  */
+
+.contato-box {
+    /* background-color: #EBF7ED;
+    width: 80%; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 27%;
+    margin-top: 5%;
+    background-color: #EBF7ED;
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 12px;
+    border-color: #302D40;
+    border-width: 10px;
+    border: 1px solid #302D40;
+    font-size: 20px;
+}
+
+.botao-contato{
+    width: 80%;
+    margin-left: 6%;
+}
+
+.form-label {
+    margin-left: 6%;
+}
+
+.texto-contato {
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 2%;
 }

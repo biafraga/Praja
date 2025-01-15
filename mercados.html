@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercados</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="headertodo">
+            <img src="imagens/Prajá_Horizontal.png" class="logo" alt="logo do app PraJá" title="logo do app PraJá">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="mercados.html">Mercados</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="lista.html">Lista</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="class">
+                <div class="icone1">
+                <a href="index.html"><img src="imagens/home.png" class="icones"></a>
+                </div>
+                <div class="icone2">
+                <a href="produtos.html"><img src="imagens/lupa.png" class="icones"></a>
+                </div>
+                <div class="icone3">
+                <a href="lista.html"><img src="imagens/shopping-cart.png" class="icones"></a>
+                </div>
+                <a href="cadastro.html"><img src="imagens/usuário.png" class="icones"></a>
+            </div>
+        </div>
+        </header>
+        <div class="row">
+            <h3 class="titulo-mercados">Encontre o mercado mais próximo de você!</h3>
+            <div class="col-12 col-md-4">
+                
+                <div class="mapa">
+                    <div class="mapa-box">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470400.73871622403!2d-43.775657480911576!3d-22.913157976563937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1736823868992!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <form class="formulario">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">CEP</label>
+                      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                      <div id="emailHelp" class="form-text">Insira seu cep e tentaremos identificar a sua residência!</div>
+                    </div>           
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Estado</label>
+                        <select class="form-select 1form-select-sm" aria-label="Small select example">
+                          <option selected>Rio de Janeiro</option>
+                          <option value="1">São Paulo</option>
+                          <option value="2">Espírito Santo</option>
+                          <option value="3">Paraná</option>
+                          <option value="4">Minas Gerais</option>
+                          <option value="5">Bahia</option>
+                          <option value="6">Paraíba</option>
+                        </select>
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div id="emailHelp" class="form-text">Informe aqui sua cidade.</div>
+                      </div>
+                      
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Bairro</label>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div id="emailHelp" class="form-text">Informe aqui o seu bairro.</div>
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input1" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Concordo em compartilhar meus dados.</label>
+                      </div>
+                      <div class="botao-mercados">
+                        <button type="button" class="btn btn-dark">Prosseguir</button>
+                      </div>
+                  </form>
+
+            </div>
+
+        </div>
+        <footer>
+            <p>Copyright@BeatrizFraga2024</p>
+            <p>Termos de uso</p>
+            <p>Políticas de privacidade</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
